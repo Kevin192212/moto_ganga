@@ -1,0 +1,443 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+/* ESTILOS DE CABECERA */
+
+nav {
+    background-color: #2354d4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10%;
+    box-shadow: 0px 10px 13px -7px #000000, -1px 12px 16px -7px rgba(0,0,0,0);
+    font-weight: bold;
+
+}
+
+.logo_nav img {
+    height: 80px;
+    width: 140px;
+}
+
+.sections a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 25px;
+    font-size: 25px;
+
+}
+
+.sections a:hover {
+    color: #fff;
+    background-color: #5FB8FF;
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, -1px 12px 16px -7px rgba(0,0,0,0);
+}
+
+/* ESTILOS DE DEPORTIVAS */
+
+.title_deportivas {
+    text-align: center;
+    padding-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.deportivas {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.deportivas div {
+    margin-right: 2%;
+}
+
+.deportiva_uno {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.deportiva_uno:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_deportiva_uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_deportiva_uno img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_deportiva_uno {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_deportiva_uno h3 {
+    margin: 5% 0;
+}
+
+.text_deportiva_uno .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_deportiva_uno .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_deportiva_uno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_deportiva_uno button {
+    margin: 0 2.5%;
+
+}
+
+.btn_compra_deportiva_uno {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid #34db60;
+	display:inline-block;
+	cursor:pointer;
+	color:#34db60;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+
+}
+
+.btn_compra_deportiva_uno:hover {
+	background-color:#34db60;
+    color: #fff;
+}
+
+.btn_separar_deportiva_uno {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid red;
+	display:inline-block;
+	cursor:pointer;
+	color: red;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+}
+
+.btn_separar_deportiva_uno:hover {
+	background-color: red;
+    color: #fff;
+}
+
+/* depotiva  2*/
+
+.deportiva_dos {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.deportiva_dos:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_deportiva_dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_deportiva_dos img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_deportiva_dos {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_deportiva_dos h3 {
+    margin: 5% 0;
+}
+
+.text_deportiva_dos .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_deportiva_dos .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_deportiva_dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_deportiva_dos button {
+    margin: 0 2.5%;
+
+}
+
+.btn_compra_deportiva_dos {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid #34db60;
+	display:inline-block;
+	cursor:pointer;
+	color:#34db60;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+
+}
+
+.btn_compra_deportiva_dos:hover {
+	background-color:#34db60;
+    color: #fff;
+}
+
+.btn_separar_deportiva_dos {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid red;
+	display:inline-block;
+	cursor:pointer;
+	color: red;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+}
+
+.btn_separar_deportiva_dos:hover {
+	background-color: red;
+    color: #fff;
+}
+
+/* deportiva 3 */
+
+.deportiva_tres {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.deportiva_tres:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_deportiva_tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_deportiva_tres img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_deportiva_tres {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_deportiva_tres h3 {
+    margin: 5% 0;
+}
+
+.text_deportiva_tres .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_deportiva_tres .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_deportiva_tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_deportiva_tres button {
+    margin: 0 2.5%;
+
+}
+
+.btn_compra_deportiva_tres {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid #34db60;
+	display:inline-block;
+	cursor:pointer;
+	color:#34db60;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+
+}
+
+.btn_compra_deportiva_tres:hover {
+	background-color:#34db60;
+    color: #fff;
+}
+
+.btn_separar_deportiva_tres {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid red;
+	display:inline-block;
+	cursor:pointer;
+	color: red;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+}
+
+.btn_separar_deportiva_tres:hover {
+	background-color: red;
+    color: #fff;
+}
+
+/* deportiva cuatro */
+
+.deportiva_cuatro {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.deportiva_cuatro:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_deportiva_cuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_deportiva_cuatro img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_deportiva_cuatro {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_deportiva_cuatro h3 {
+    margin: 5% 0;
+}
+
+.text_deportiva_cuatro .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_deportiva_cuatro .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_deportiva_cuatro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_deportiva_cuatro button {
+    margin: 0 2.5%;
+
+}
+
+.btn_compra_deportiva_cuatro {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid #34db60;
+	display:inline-block;
+	cursor:pointer;
+	color:#34db60;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+
+}
+
+.btn_compra_deportiva_cuatro:hover {
+	background-color:#34db60;
+    color: #fff;
+}
+
+.btn_separar_deportiva_cuatro {
+	background-color:#fff;
+	border-radius:28px;
+	border:2px solid red;
+	display:inline-block;
+	cursor:pointer;
+	color: red;
+	font-size:14px;
+    font-weight: 600;
+	padding:16px 31px;
+}
+
+.btn_separar_deportiva_cuatro:hover {
+	background-color: red;
+    color: #fff;
+}
