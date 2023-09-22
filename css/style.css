@@ -17,6 +17,11 @@ nav {
     padding: 5px 10%;
     box-shadow: 0px 10px 13px -7px #000000, -1px 12px 16px -7px rgba(0,0,0,0);
     font-weight: bold;
+    width: 80%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    
 
 }
 
@@ -47,6 +52,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 25px;
+    padding-top: 9%;
 }
 
 .deportivas {
@@ -59,6 +65,8 @@ nav {
 .deportivas div {
     margin-right: 2%;
 }
+
+/* Deportiva uno */
 
 .deportiva_uno {
     display: block;
@@ -76,6 +84,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    height: 260px;
 }
 
 .img_deportiva_uno img {
@@ -119,7 +129,7 @@ nav {
 
 }
 
-.btn_compra_deportiva_uno {
+.btn_compra {
 	background-color:#fff;
 	border-radius:28px;
 	border:2px solid #34db60;
@@ -132,12 +142,12 @@ nav {
 
 }
 
-.btn_compra_deportiva_uno:hover {
+.btn_compra:hover {
 	background-color:#34db60;
     color: #fff;
 }
 
-.btn_separar_deportiva_uno {
+.btn_separar {
 	background-color:#fff;
 	border-radius:28px;
 	border:2px solid red;
@@ -149,12 +159,12 @@ nav {
 	padding:16px 31px;
 }
 
-.btn_separar_deportiva_uno:hover {
+.btn_separar:hover {
 	background-color: red;
     color: #fff;
 }
 
-/* depotiva  2*/
+/* Depotiva  dos*/
 
 .deportiva_dos {
     display: block;
@@ -172,6 +182,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    height: 260px;
 }
 
 .img_deportiva_dos img {
@@ -215,42 +227,7 @@ nav {
 
 }
 
-.btn_compra_deportiva_dos {
-	background-color:#fff;
-	border-radius:28px;
-	border:2px solid #34db60;
-	display:inline-block;
-	cursor:pointer;
-	color:#34db60;
-	font-size:14px;
-    font-weight: 600;
-	padding:16px 31px;
-
-}
-
-.btn_compra_deportiva_dos:hover {
-	background-color:#34db60;
-    color: #fff;
-}
-
-.btn_separar_deportiva_dos {
-	background-color:#fff;
-	border-radius:28px;
-	border:2px solid red;
-	display:inline-block;
-	cursor:pointer;
-	color: red;
-	font-size:14px;
-    font-weight: 600;
-	padding:16px 31px;
-}
-
-.btn_separar_deportiva_dos:hover {
-	background-color: red;
-    color: #fff;
-}
-
-/* deportiva 3 */
+/* Deportiva 3 */
 
 .deportiva_tres {
     display: block;
@@ -268,6 +245,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    height: 260px;
 }
 
 .img_deportiva_tres img {
@@ -311,42 +290,7 @@ nav {
 
 }
 
-.btn_compra_deportiva_tres {
-	background-color:#fff;
-	border-radius:28px;
-	border:2px solid #34db60;
-	display:inline-block;
-	cursor:pointer;
-	color:#34db60;
-	font-size:14px;
-    font-weight: 600;
-	padding:16px 31px;
-
-}
-
-.btn_compra_deportiva_tres:hover {
-	background-color:#34db60;
-    color: #fff;
-}
-
-.btn_separar_deportiva_tres {
-	background-color:#fff;
-	border-radius:28px;
-	border:2px solid red;
-	display:inline-block;
-	cursor:pointer;
-	color: red;
-	font-size:14px;
-    font-weight: 600;
-	padding:16px 31px;
-}
-
-.btn_separar_deportiva_tres:hover {
-	background-color: red;
-    color: #fff;
-}
-
-/* deportiva cuatro */
+/* Deportiva cuatro */
 
 .deportiva_cuatro {
     display: block;
@@ -364,6 +308,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    height: 260px;
 }
 
 .img_deportiva_cuatro img {
@@ -407,37 +353,666 @@ nav {
 
 }
 
-.btn_compra_deportiva_cuatro {
-	background-color:#fff;
-	border-radius:28px;
-	border:2px solid #34db60;
-	display:inline-block;
-	cursor:pointer;
-	color:#34db60;
-	font-size:14px;
+/* ESTILOS DE NAKED */
+
+.title_naked {
+    text-align: center;
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-	padding:16px 31px;
+    font-size: 25px;
+}
+
+.naked {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.naked div {
+    margin-right: 2%;
+}
+
+/* Naked uno */
+
+.naked_uno {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 
 }
 
-.btn_compra_deportiva_cuatro:hover {
-	background-color:#34db60;
-    color: #fff;
+.naked_uno:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
-.btn_separar_deportiva_cuatro {
-	background-color:#fff;
-	border-radius:28px;
-	border:2px solid red;
-	display:inline-block;
-	cursor:pointer;
-	color: red;
-	font-size:14px;
+.img_naked_uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_naked_uno img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_naked_uno {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_naked_uno h3 {
+    margin: 5% 0;
+}
+
+.text_naked_uno .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_naked_uno .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_naked_uno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_naked_uno button {
+    margin: 0 2.5%;
+
+}
+
+/* Naked dos */
+
+.naked_dos {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.naked_dos:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_naked_dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_naked_dos img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_naked_dos {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_naked_dos h3 {
+    margin: 5% 0;
+}
+
+.text_naked_dos .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_naked_dos .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_naked_dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_naked_dos button {
+    margin: 0 2.5%;
+
+}
+
+/* Naked tres */
+
+.naked_tres {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.naked_tres:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_naked_tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_naked_tres img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_naked_tres {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_naked_tres h3 {
+    margin: 5% 0;
+}
+
+.text_naked_tres .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_naked_tres .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_naked_tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_naked_tres button {
+    margin: 0 2.5%;
+
+}
+
+/* Naked cuatro */
+
+.naked_cuatro {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.naked_cuatro:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_naked_cuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_naked_cuatro img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_naked_cuatro {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_naked_cuatro h3 {
+    margin: 5% 0;
+}
+
+.text_naked_cuatro .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_naked_cuatro .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_naked_cuatro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_naked_cuatro button {
+    margin: 0 2.5%;
+
+}
+
+/* ESTILOS DE ENDURO */
+
+.title_enduro {
+    text-align: center;
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-	padding:16px 31px;
+    font-size: 25px;
 }
 
-.btn_separar_deportiva_cuatro:hover {
-	background-color: red;
+.enduro {
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.enduro div {
+    margin-right: 2%;
+}
+
+/* Enduro uno */
+
+.enduro_uno {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.enduro_uno:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_enduro_uno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_enduro_uno img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_enduro_uno {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_enduro_uno h3 {
+    margin: 5% 0;
+}
+
+.text_enduro_uno .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_enduro_uno .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_enduro_uno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_enduro_uno button {
+    margin: 0 2.5%;
+
+}
+
+/* Enduro tres */
+
+.enduro_dos {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.enduro_dos:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_enduro_dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_enduro_dos img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_enduro_dos {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_enduro_dos h3 {
+    margin: 5% 0;
+}
+
+.text_enduro_dos .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_enduro_dos .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_enduro_dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_enduro_dos button {
+    margin: 0 2.5%;
+
+}
+
+/* Enduro tres */
+
+.enduro_tres {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.enduro_tres:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_enduro_tres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_enduro_tres img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_enduro_tres {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_enduro_tres h3 {
+    margin: 5% 0;
+}
+
+.text_enduro_tres .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_enduro_tres .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_enduro_tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_enduro_tres button {
+    margin: 0 2.5%;
+
+}
+
+/* Enduro cuatro */
+
+.enduro_cuatro {
+    display: block;
+    width: 22.5%;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.enduro_cuatro:hover {
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.img_enduro_cuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 260px;
+}
+
+.img_enduro_cuatro img {
+    width: 90%;
+    height: 90%;
+}
+
+.text_enduro_cuatro {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.text_enduro_cuatro h3 {
+    margin: 5% 0;
+}
+
+.text_enduro_cuatro .precio {
+    margin-bottom: 2px;
+    font-variant: initial;
+    font-size: 18px;
+}
+
+.text_enduro_cuatro .modelo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.btn_enduro_cuatro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btn_enduro_cuatro button {
+    margin: 0 2.5%;
+
+}
+
+/* ESTILOS DE FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #2354d4;
+    padding: 50px 0 20px 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.contacto {
+    display: block;
+    margin: 10px;
+    text-align: center;
     color: #fff;
+    width: 22%;
+}
+
+.contacto h2 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #5FB8FF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-bottom: 7px;
+}
+
+p #number_tel {
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+}
+
+p #number_tel:hover {
+    background-color: #fff;
+    color: #2354d4;
+}
+
+p #email {
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+}
+
+p #email:hover {
+    background-color: #fff;
+    color: #2354d4;
+}
+
+p #ubication {
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+}
+
+p #ubication:hover {
+    background-color: #fff;
+    color: #2354d4;
+}
+
+.siguenos {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    width: 22%;
+}
+
+.siguenos h2 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #5FB8FF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social-media a i {
+    margin: 5px;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+}
+
+.social-media a i:hover {
+    background-color: #fff;
+    color: #2354d4;
 }
